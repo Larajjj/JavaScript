@@ -1,2 +1,3 @@
 Some useful websites:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+JS documantation:  https://developer.mozilla.org/en-US/docs/Web/JavaScript
+Principles of Writing Consistent, Idiomatic JavaScript:  https://github.com/rwaldron/idiomatic.js
