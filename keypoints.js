@@ -172,6 +172,7 @@ function getMilk(money) {
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("enterHouse");
-  return money%1.5
+  return money%1.5;
 }
-getMilk(10);
+var change = getMilk(6);
+console.log(change);
