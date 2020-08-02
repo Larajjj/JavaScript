@@ -23,6 +23,13 @@ alert(tweetUnder140);
 // CHANGING CASING
 var name = prompt("What is your name?");
 nameSlice = name.slice(0,1);
+nameSlice = nameSlice.toUpperCase();
 nameRemain = name.slice(1,);
+nameRemain = nameRemain.toLowerCase();
 nameSlice = nameSlice.toUpperCase();
 alert("Hello, "+nameSlice+nameRemain);
+
+
+var dogAge = prompt("How old is your dog:");
+var humanAge = (dogAge-2)*4+21;
+alert("Your dog is "+humanAge+" year old in human years.");
