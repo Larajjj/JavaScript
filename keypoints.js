@@ -18,3 +18,11 @@ alert("You've written "+tweetCount+" characters, you have "+(140-tweetCount)+"ch
 var tweet = prompt("Compose your tweet:");
 var tweetUnder140 = tweet.slice(0,140);
 alert(tweetUnder140);
+
+
+// CHANGING CASING
+var name = prompt("What is your name?");
+nameSlice = name.slice(0,1);
+nameRemain = name.slice(1,);
+nameSlice = nameSlice.toUpperCase();
+alert("Hello, "+nameSlice+nameRemain);
