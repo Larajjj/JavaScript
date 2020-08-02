@@ -68,7 +68,6 @@ function diagonal_beeper(){
 }
 
 //Alternalte beeper
- **/
 function main(){
    putBeeper();
    direction();
