@@ -37,3 +37,18 @@ var humanAge = (dogAge-2)*4+21;
 alert("Your dog is "+humanAge+" year old in human years.");
 
 
+// FUNCTIONS
+function main(){
+   moveFourTimes();
+   turnLeft();
+   moveFourTimes();
+}
+
+function moveFourTimes(){
+   move();
+   move();
+   move();
+   move();
+}
+
+
