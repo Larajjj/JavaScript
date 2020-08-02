@@ -1,6 +1,8 @@
 Some useful websites:
 JS documantation:  https://developer.mozilla.org/en-US/docs/Web/JavaScript
 Principles of Writing Consistent, Idiomatic JavaScript:  https://github.com/rwaldron/idiomatic.js
+http://stanford.edu/~cpiech/karel/ide.html
+
 
 //STRING CONCATENATION 
 var message="Hello";
@@ -33,3 +35,5 @@ alert("Hello, "+nameSlice+nameRemain);
 var dogAge = prompt("How old is your dog:");
 var humanAge = (dogAge-2)*4+21;
 alert("Your dog is "+humanAge+" year old in human years.");
+
+
