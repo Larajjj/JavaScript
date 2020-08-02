@@ -51,4 +51,53 @@ function moveFourTimes(){
    move();
 }
 
+//Diagonal beeper
+function main(){
+   putBeeper();
+   diagonal_beeper();
+   diagonal_beeper();
+   diagonal_beeper();
+   diagonal_beeper();
+}
+function diagonal_beeper(){
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+   turnRight();
+}
 
+//Alternalte beeper
+ **/
+function main(){
+   putBeeper();
+   direction();
+   direction();
+   direction();
+   alt_beep();
+   turnLeft();
+   alt_beep();
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+   small_dir();
+   small_dir();
+   small_dir();
+   
+}
+function small_dir(){
+   turnLeft();
+   alt_beep();
+}
+function direction(){
+   alt_beep();
+   alt_beep();
+   turnLeft(); 
+}
+function alt_beep(){
+   move();
+   move();
+   putBeeper();
+   
+}
