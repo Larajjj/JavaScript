@@ -132,5 +132,19 @@ getMilk(10);
 
 
 
+function lifeInWeeks(age) {
+    
+/************Don't change the code above************/    
+    
+    //Write your code here.
+    var remain = 90-age;
+    var x = remain*365;
+    var y = remain*52;
+    var z = remain*12;
+    console.log('You have '+x+' days, '+y+' weeks, and '+z+' months left.');
+    
+    
+/*************Don't change the code below**********/
+}
 
 
