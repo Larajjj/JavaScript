@@ -13,3 +13,8 @@ var tweet = prompt("Compose your tweet:");
 var tweetCount = tweet.length
 alert("You've written "+tweetCount+" characters, you have "+(140-tweetCount)+"characters remaining.")
 
+
+// SLICING & EXTRACTING
+var tweet = prompt("Compose your tweet:");
+var tweetUnder140 = tweet.slice(0,140);
+alert(tweetUnder140);
