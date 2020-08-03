@@ -148,7 +148,8 @@ function lifeInWeeks(age) {
 }
 
 
-//OUTPUTS & RETURN VALUES 
+//OUTPUTS & RETURN VALUES
+(a)
 function getMilk(money) {   
   console.log("leaveHouse");
   console.log("moveRight");
@@ -163,6 +164,7 @@ function getMilk(money) {
   var numOfBottles = money/1.5
 
   console.log("buy "+ Math.floor(numOfBottles)+ " bottles of milk");
+   
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("moveDown");
@@ -176,3 +178,51 @@ function getMilk(money) {
 }
 var change = getMilk(6);
 console.log(change);
+
+
+(b)
+function getMilk(money,costPerBootle) {   
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+
+  
+
+  console.log("buy "+ clacBottles(money,costPerBootle)+ " bottles of milk");
+
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+  return calcChange(money,costPerBootle);
+}
+
+
+function clacBottles(startingMoney, costPerBootle){
+
+    var numOfBottles = Math.floor(startingMoney/costPerBootle);
+
+    return numOfBottles;
+}
+
+
+function calcChange(startingMoney, costPerBootle){
+
+    var change = startingMoney % costPerBootle;
+
+    return change;
+}
+
+
+console.log("Hello master, here is your "+getMilk(5, 1.5)+" change");
