@@ -192,8 +192,6 @@ function getMilk(money,costPerBootle) {
   console.log("moveRight");
   console.log("moveRight");
 
-  
-
   console.log("buy "+ clacBottles(money,costPerBootle)+ " bottles of milk");
 
   console.log("moveLeft");
@@ -226,3 +224,29 @@ function calcChange(startingMoney, costPerBootle){
 
 
 console.log("Hello master, here is your "+getMilk(5, 1.5)+" change");
+
+
+//BMI calculator
+function bmiCalculator(weight, height){
+    
+    var bmi = Math.floor(weight/Math.pow(height,2)); 
+
+    return bmi;
+}
+bmiCalculator(65, 1.8);
+
+(or)
+
+function getResult(weight, height){
+    
+    return calBmi(weight,height);
+}
+
+function calBmi(weight,height){
+
+  var formula = Math.floor(weight/((height)*(height))); 
+
+  return formula;
+}
+getResult(65, 1.8);
+
